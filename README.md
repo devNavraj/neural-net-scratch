@@ -18,9 +18,9 @@ pip install numpy
 ## How to run?
 1. Open this folder on your Code Editor or IDE (Visual Code, Atom, Sublime, PyCharm, or any)
 2. Open the terminal and run the following command:
-'''bash
+```bash
 python main.py
-'''
+```
 
 ### Overview of File Structure
 ```
