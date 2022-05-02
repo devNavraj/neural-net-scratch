@@ -1,5 +1,6 @@
 # Neural Network from Scratch
 I have built a simple Neural Network from scratch using Python and its NumPy library only. I have tried to implement this model for famous 'HelloWorld of Computer Vision' - MNIST Handwritten Digits Recognition Task. 
+[GitHub Repo](https://github.com/devNavraj/neural-net-scratch)
 
 ## Dataset
 [MNIST Dataset](http://yann.lecun.com/exdb/mnist/) contains 70,000 images of hand-written digits, 60,000 for training while 10,000 for testing, each 28×28 pixels, in grayscale with pixel-values from 0 to 255.

@@ -24,21 +24,21 @@ if __name__ == '__main__':
         ------------------------------------------------------------------------
         '''
     )
-    # simple_nn = NeuralNetwork(THREE_LAYER_NN, activation='sigmoid')
-    # simple_nn.mini_batch_gradient_descent(
-    #     train_data=train_data, 
-    #     mini_batch_size=BATCH_SIZE, 
-    #     epochs=EPOCHS, 
-    #     learning_rate=ETA, 
-    #     test_data=test_data
-    # )
+    simple_nn = NeuralNetwork(THREE_LAYER_NN, activation='sigmoid')
+    simple_nn.mini_batch_gradient_descent(
+        train_data=train_data, 
+        mini_batch_size=BATCH_SIZE, 
+        epochs=EPOCHS, 
+        learning_rate=ETA, 
+        test_data=test_data
+    )
 
     print(
         '''
         Again unpacking the training and testing data from the CustomDataLoader.
         '''
     )
-    # train_data, test_data = mnist_loader.preprocess_data()
+    train_data, test_data = mnist_loader.preprocess_data()
 
     print(
         '''
