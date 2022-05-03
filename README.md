@@ -44,7 +44,7 @@ There are mainly five python files made here.
 - Finally, I have created a file to test my neural network called *main.py* that can be run in the terminal. This file is outlined in “Running Tests”.
 
 ## Model Architecture
-In machine learning terminology, each input to the neuron $(x_1, x_2, ..., x_n)$ is known as a feature, and each feature is weighted with a number to represent the strength of that input $(w_{1_j}, w_{2_j}, ..., w_{n_j})$. The weighted sum of inputs is then passes through an *activation function*, whose general purpose is to model the *firing rate* of a biological neuron by converting the weighted sum into a new number according to a formula. 
+In machine learning terminology, each input to the neuron ${(x_1, x_2, ..., x_n)}$ is known as a feature, and each feature is weighted with a number to represent the strength of that input ${(w_{1_j}, w_{2_j}, ..., w_{n_j})}$. The weighted sum of inputs is then passes through an *activation function*, whose general purpose is to model the *firing rate* of a biological neuron by converting the weighted sum into a new number according to a formula. 
 
 First, I have built a basic neural network with 3 layers: 1 input layer, 1 hidden layer and 1 output layer. Then, I have added two more hidden layers to it such that the total number of layers now become 5 from 3. All layers are fully connected i.e. dense. I have implemented popular Sigmoid activation function and a modified sigmoid function with positive *z* to the exponent part. 
 
