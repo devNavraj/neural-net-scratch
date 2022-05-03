@@ -190,8 +190,8 @@ Here, I have created helper functions for my neural network model. They are expl
 
    The purpose of an activation function is to add non-linearity to the neural network. As I have mentioned earlier, I have implemented popular Sigmoid activation function and a modified sigmoid function with positive *z* to its exponent part.
    - **Sigmoid:** This function takes any real value as input   and outputs values in the range of 0 to 1. The larger the input (more positive), the closer the output value will be to 1.0, whereas the smaller the input (more negative), the closer the output will be to 0.0
-
-    ![formula](<img src="https://render.githubusercontent.com/render/math?math=\sigma (z) =  \frac{\mathrm{1} }{\mathrm{1} + e^\mathrm{-z} }">)
+    <img src="https://render.githubusercontent.com/render/math?math=x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b}">
+    <img src="https://render.githubusercontent.com/render/math?math=\sigma (z) =  \frac{\mathrm{1} }{\mathrm{1} + e^\mathrm{-z} }">
 
     The derivative of sigmoid function can be written as:
     $$ \sigma' (z) =  { \sigma (z) (\mathrm{1} - \sigma (z)) } $$ 
